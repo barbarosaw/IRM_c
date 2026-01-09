@@ -1,0 +1,18 @@
+Member,Organization,"Time Zone",Projects,"Task Summary",Start,Stop,Duration,Activity,Idle,Manual,Notes,Reasons,Type,"Payment type"
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-01T23:00:00+08:00,2025-12-01T23:34:49+08:00,0:34:49,12%,0%,100%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-01T23:34:52+08:00,2025-12-02T00:30:39+08:00,0:55:47,86%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-02T00:31:44+08:00,2025-12-02T07:02:31+08:00,6:30:47,43%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-02T22:59:02+08:00,2025-12-03T07:00:52+08:00,8:01:50,57%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-03T22:59:05+08:00,2025-12-04T01:08:23+08:00,2:09:18,78%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-04T01:09:09+08:00,2025-12-04T07:00:59+08:00,5:51:50,51%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-04T22:59:12+08:00,2025-12-05T07:07:20+08:00,8:08:08,61%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-05T22:59:41+08:00,2025-12-06T07:11:01+08:00,8:11:20,49%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-08T22:59:30+08:00,2025-12-09T06:59:31+08:00,8:00:01,53%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-09T22:59:58+08:00,2025-12-10T02:28:25+08:00,3:28:27,43%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-10T02:29:15+08:00,2025-12-10T07:00:48+08:00,4:31:33,64%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-10T20:56:30+08:00,2025-12-10T23:31:32+08:00,2:35:02,55%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-10T23:31:33+08:00,2025-12-10T23:42:12+08:00,0:10:39,0%,0%,100%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-10T23:42:13+08:00,2025-12-11T04:58:52+08:00,5:16:39,58%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-11T22:56:36+08:00,2025-12-12T06:56:37+08:00,8:00:01,38%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-12T23:00:02+08:00,2025-12-13T07:00:05+08:00,8:00:03,53%,0%,0%,,,"Time entry",Billable
+"Steven Omodth",AbroadWorks,Asia/Shanghai,AbroadWorks,,2025-12-15T22:58:57+08:00,2025-12-16T07:03:39+08:00,8:04:42,70%,0%,0%,,,"Time entry",Billable

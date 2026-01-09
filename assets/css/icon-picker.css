@@ -1,0 +1,167 @@
+/**
+ * AbroadWorks Management System - Icon Picker Styles
+ * 
+ * @author ikinciadam@gmail.com
+ */
+
+.icon-picker-wrapper {
+    position: relative;
+}
+
+.icon-picker-trigger {
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.icon-picker-trigger:hover {
+    border-color: #86b7fe;
+}
+
+.icon-picker-trigger:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.icon-picker-trigger .icon-preview {
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+}
+
+.icon-picker-trigger .icon-preview i {
+    color: #6c757d;
+}
+
+.icon-picker-trigger .icon-text {
+    color: #495057;
+}
+
+.icon-picker-trigger .fa-chevron-down {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+/* Modal styles */
+.icon-grid .btn {
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.25rem;
+    font-size: 0.75rem;
+    border-radius: 0.375rem;
+    transition: all 0.15s ease-in-out;
+}
+
+.icon-grid .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon-grid .btn.active {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
+
+.icon-grid .btn i {
+    font-size: 1.25rem;
+}
+
+.icon-grid .btn small {
+    font-size: 0.6rem;
+    margin-top: 0.25rem;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.category-buttons .btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.icon-search {
+    border-radius: 0.375rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .icon-grid .btn {
+        font-size: 0.65rem;
+    }
+    
+    .icon-grid .btn i {
+        font-size: 1rem;
+    }
+    
+    .category-buttons {
+        justify-content: center;
+    }
+    
+    .category-buttons .btn {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.4rem;
+    }
+}
+
+/* Loading state */
+.icon-picker-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.icon-picker-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0d6efd;
+    border-radius: 50%;
+    animation: icon-picker-spin 1s linear infinite;
+}
+
+@keyframes icon-picker-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Dark mode support */
+[data-bs-theme="dark"] .icon-picker-trigger {
+    background-color: #212529;
+    border-color: #495057;
+    color: #dee2e6;
+}
+
+[data-bs-theme="dark"] .icon-picker-trigger:hover {
+    border-color: #6ea8fe;
+}
+
+[data-bs-theme="dark"] .icon-picker-trigger:focus {
+    border-color: #6ea8fe;
+    box-shadow: 0 0 0 0.25rem rgba(110, 168, 254, 0.25);
+}
+
+[data-bs-theme="dark"] .icon-grid .btn {
+    background-color: #343a40;
+    border-color: #495057;
+    color: #dee2e6;
+}
+
+[data-bs-theme="dark"] .icon-grid .btn:hover {
+    background-color: #495057;
+    border-color: #6c757d;
+}

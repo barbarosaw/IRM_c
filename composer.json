@@ -1,0 +1,9 @@
+{
+    "require": {
+        "sonata-project/google-authenticator": "^2.3",
+        "phpoffice/phpspreadsheet": "^4.1",
+        "mpdf/mpdf": "^8.2",
+        "phpmailer/phpmailer": "^7.0",
+        "vonage/client": "^4.0"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "Bash(unzip:*)",
+      "Bash(mysql:*)",
+      "Bash(python3:*)",
+      "Bash(curl:*)",
+      "Bash(php -l:*)",
+      "Bash(chmod:*)",
+      "Bash(chown:*)",
+      "Bash(php -r:*)",
+      "Bash(/opt/plesk/php/8.3/bin/php:*)",
+      "Bash(cat:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}

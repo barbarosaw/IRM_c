@@ -1,0 +1,13 @@
+Member,Organization,"Time Zone",Projects,"Task Summary",Start,Stop,Duration,Activity,Idle,Manual,Notes,Reasons,Type,"Payment type"
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-01T09:55:45-06:00,2025-12-01T17:02:44-06:00,7:06:59,25%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-02T10:00:29-06:00,2025-12-02T17:01:27-06:00,7:00:58,40%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-03T09:58:30-06:00,2025-12-03T17:30:08-06:00,7:31:38,40%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-04T09:32:09-06:00,2025-12-04T17:04:29-06:00,7:32:20,29%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-04T17:04:30-06:00,2025-12-04T17:04:31-06:00,0:00:01,100%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-05T10:00:35-06:00,2025-12-05T17:00:39-06:00,7:00:04,11%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-08T09:29:13-06:00,2025-12-08T17:00:12-06:00,7:30:59,19%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-09T09:25:32-06:00,2025-12-09T17:00:15-06:00,7:34:43,32%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-10T09:58:25-06:00,2025-12-10T17:29:12-06:00,7:30:47,40%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-11T10:00:25-06:00,2025-12-11T17:32:32-06:00,7:32:07,25%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-12T09:57:53-06:00,2025-12-12T10:03:56-06:00,0:06:03,1%,0%,0%,,,"Time entry",Billable
+"Jose Jimenez",AbroadWorks,America/Mexico_City,"Choix Enterprise LLC",,2025-12-12T10:03:57-06:00,2025-12-12T17:15:43-06:00,7:11:46,26%,0%,0%,,,"Time entry",Billable

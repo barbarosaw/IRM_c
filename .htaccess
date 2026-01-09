@@ -1,0 +1,70 @@
+# AbroadWorks Management System - URL Rewriting Rules and Security Settings
+
+# Enable the rewriting engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Base directory (change if in a subdirectory)
+    # RewriteBase /
+    
+    # Redirect to maintenance.php if system is in maintenance mode
+    # Except for admin IPs and the maintenance page itself
+    RewriteCond %{DOCUMENT_ROOT}/maintenance-mode -f
+    RewriteCond %{REQUEST_URI} !^/maintenance\.php$
+    RewriteCond %{REQUEST_URI} !^/assets/
+    RewriteCond %{REMOTE_ADDR} !^(127\.0\.0\.1|::1)$
+    RewriteRule ^(.*)$ maintenance.php [L]
+    
+    # Add trailing slash to directories
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+    
+    # Protect system files
+    RewriteRule ^config/.* - [F,L]
+    RewriteRule ^includes/.* - [F,L]
+    RewriteRule ^backups/.* - [F,L]
+    
+    # Prevent direct access to .php files in these directories
+    RewriteRule ^templates/.*\.php - [F,L]
+    
+    # Custom error pages
+    ErrorDocument 404 /not-found.php
+    ErrorDocument 403 /access-denied.php
+    ErrorDocument 500 /error.php
+</IfModule>
+
+# PHP settings
+<IfModule mod_php7.c>
+    # Disable directory listing
+    php_flag engine on
+    php_flag display_errors off
+    php_value post_max_size 20M
+    php_value upload_max_filesize 10M
+    php_value memory_limit 128M
+    php_value max_execution_time 300
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+    # XSS Protection
+    Header set X-XSS-Protection "1; mode=block"
+    # Prevent MIME type sniffing
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Prevent access to .htaccess
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Prevent access to specific files
+<FilesMatch "^(\.git|\.env|composer\.(json|lock)|package(-lock)?\.json|README\.md)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

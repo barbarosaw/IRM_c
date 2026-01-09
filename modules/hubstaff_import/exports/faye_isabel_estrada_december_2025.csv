@@ -1,0 +1,6 @@
+Member,Organization,"Time Zone",Projects,"Task Summary",Start,Stop,Duration,Activity,Idle,Manual,Notes,Reasons,Type,"Payment type"
+"Faye Isabel Estrada",AbroadWorks,America/New_York,"Good Fake LLC",,2025-12-01T12:20:10-05:00,2025-12-01T13:34:31-05:00,1:14:21,21%,0%,0%,,,"Time entry",Billable
+"Faye Isabel Estrada",AbroadWorks,America/New_York,"Good Fake LLC",,2025-12-02T13:15:48-05:00,2025-12-02T14:27:40-05:00,1:11:52,27%,0%,0%,,,"Time entry",Billable
+"Faye Isabel Estrada",AbroadWorks,America/New_York,"Good Fake LLC",,2025-12-02T20:49:24-05:00,2025-12-02T21:15:32-05:00,0:26:08,60%,0%,0%,,,"Time entry",Billable
+"Faye Isabel Estrada",AbroadWorks,America/New_York,"Good Fake LLC",,2025-12-03T13:08:47-05:00,2025-12-03T13:50:16-05:00,0:41:29,42%,0%,0%,,,"Time entry",Billable
+"Faye Isabel Estrada",AbroadWorks,America/New_York,"Good Fake LLC",,2025-12-03T13:50:24-05:00,2025-12-03T13:58:34-05:00,0:08:10,14%,0%,0%,,,"Time entry",Billable

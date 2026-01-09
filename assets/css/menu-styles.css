@@ -1,0 +1,23 @@
+/* Main menu item styles */
+.main-menu-item {
+    background-color: #f0f8ff; /* Light blue background */
+    font-weight: bold;
+}
+
+.main-menu-item td {
+    border-top: 2px solid #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+.main-menu-item td:first-child {
+    border-left: 2px solid #007bff;
+}
+
+.main-menu-item td:last-child {
+    border-right: 2px solid #007bff;
+}
+
+.main-menu-item .menu-name {
+    font-size: 1.1em;
+    color: #0056b3;
+}

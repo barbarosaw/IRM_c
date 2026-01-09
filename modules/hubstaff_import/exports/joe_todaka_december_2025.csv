@@ -1,0 +1,22 @@
+Member,Organization,"Time Zone",Projects,"Task Summary",Start,Stop,Duration,Activity,Idle,Manual,Notes,Reasons,Type,"Payment type"
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-02T09:46:50-05:00,2025-12-02T16:05:41-05:00,6:18:51,51%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-03T00:06:06-05:00,2025-12-03T00:36:02-05:00,0:29:56,84%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-03T10:33:59-05:00,2025-12-03T18:06:02-05:00,7:32:03,39%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-04T00:23:27-05:00,2025-12-04T00:42:30-05:00,0:19:03,84%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-04T00:43:54-05:00,2025-12-04T00:45:20-05:00,0:01:26,60%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-05T08:58:59-05:00,2025-12-05T08:59:18-05:00,0:00:19,100%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-05T08:59:19-05:00,2025-12-05T18:04:13-05:00,9:04:54,64%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-05T18:05:11-05:00,2025-12-05T18:11:22-05:00,0:06:11,90%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-08T08:59:04-05:00,2025-12-08T18:33:02-05:00,9:33:58,67%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-09T05:40:54-05:00,2025-12-09T05:50:03-05:00,0:09:09,52%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-09T08:50:58-05:00,2025-12-09T15:59:50-05:00,7:08:52,62%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-09T15:59:51-05:00,2025-12-09T16:29:51-05:00,0:30:00,0%,0%,100%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-09T16:29:54-05:00,2025-12-09T18:06:09-05:00,1:36:15,45%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-09T18:06:26-05:00,2025-12-09T18:08:36-05:00,0:02:10,82%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-10T08:53:22-05:00,2025-12-10T09:48:14-05:00,0:54:52,54%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-10T09:54:15-05:00,2025-12-10T18:03:31-05:00,8:09:16,41%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-11T08:57:20-05:00,2025-12-11T09:18:50-05:00,0:21:30,37%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-11T09:58:01-05:00,2025-12-11T15:00:40-05:00,5:02:39,31%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-12T10:17:55-05:00,2025-12-12T18:00:45-05:00,7:42:50,44%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-15T08:58:13-05:00,2025-12-15T18:24:28-05:00,9:26:15,53%,0%,0%,,,"Time entry",Billable
+"Joe Todaka",AbroadWorks,America/New_York,AbroadWorks,,2025-12-15T19:00:21-05:00,2025-12-15T19:06:30-05:00,0:06:09,72%,0%,0%,,,"Time entry",Billable
