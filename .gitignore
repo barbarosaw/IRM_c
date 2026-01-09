@@ -22,3 +22,6 @@ config/database.php
 *.tmp
 *.temp
 *.cache
+*.token_cache.json
+.token_cache.json
+**/exports/*.json

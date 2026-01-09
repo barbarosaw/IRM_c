@@ -147,7 +147,7 @@ $default_settings = [
     
     // API Settings
     'fingerprint_api_key' => [
-        'value' => 'ed1e7ddd8885d718244278e1a3f9c7b6eec7b1a31cb6feef3a6fcd640f63559d',
+        'value' => 'YOUR_FINGERPRINT_API_KEY_HERE',
         'group' => 'api'
     ],
     'pwpush_api_token' => [
