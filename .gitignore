@@ -25,3 +25,5 @@ config/database.php
 *.token_cache.json
 .token_cache.json
 **/exports/*.json
+database/*.sql
+database/*.sql.gz
